@@ -23,7 +23,8 @@ public class Q2 {
 		try {
 			System.out.println("Enter one more colour");
 			s[4]=sc.next();
-		throw new ArrayIndexOutOfBoundsException("Index "+ 5 +" out of bounds for length 4()");
+			throw new ArrayIndexOutOfBoundsException("Index "+ 5 +" out of bounds for length 4()");
+		
 		}
 		catch(ArrayIndexOutOfBoundsException f){
 			System.out.println(f.toString());
